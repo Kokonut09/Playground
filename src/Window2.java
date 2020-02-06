@@ -5,7 +5,13 @@ import javax.swing.event.ChangeListener;
 import java.text.NumberFormat;
 import javax.swing.border.*;
 
-
+/*
+ * Practicing GUI from Derek Banas
+ * 
+ * https://www.youtube.com/watch?v=qVdRxODXBcU
+ * https://www.newthinktank.com/2012/03/java-video-tutorial-22/
+ * 
+ */
 public class Window2 extends JFrame{
 
 	/**
