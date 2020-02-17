@@ -8,7 +8,7 @@ public class YahtzeeScoring {
 
 	public static void main(String[] args) {
 		
-		int[] roll = {2,3,5,5,6};
+		int[] roll = {1,1,1,2,6};
 		
 		
 		
@@ -36,11 +36,10 @@ public class YahtzeeScoring {
 				yHigh = i;
 				yCount = count;
 			}
-			
-			
+						
 		}
 		
-		return yHigh*yCount;
+		return roll[yHigh]*yCount;
 	}
 
 }
